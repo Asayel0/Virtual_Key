@@ -109,12 +109,11 @@ public class Main {
                 fileOptionsScreen();
                 break;
             case 2: // Delete File
-
-
+                DeleteFile();
                 fileOptionsScreen();
                 break;
             case 3: // Search File
-
+                SearchFile();
                 fileOptionsScreen();
                 break;
 
@@ -153,6 +152,56 @@ public class Main {
             }
         }catch (IOException e){
             System.out.println(e);
+        }
+    }
+
+    static void DeleteFile() {
+
+        System.out.println("Please Enter the Filename:");
+
+        String fileName = getInputString();
+
+        System.out.println("You are deleting a file named: " + fileName);
+
+
+        Path path = FileSystems.getDefault().getPath(pathName + fileName).toAbsolutePath();
+        File file = path.toFile();
+        if (file.getName().equals(fileName)) {
+            if (file.delete()) {
+                System.out.println("Deleted File: " + file.getName());
+            } else {
+                System.out.println("Failed to delete file:" + fileName + ", file was not found.");
+            }
+        }else {
+            System.out.println("File not found");
+        }
+    }
+
+    static void SearchFile() {
+
+        Boolean found = false;
+
+        System.out.println("Please Enter the Filename:");
+
+        String fileName = getInputString();
+
+        System.out.println("You are searching for a file named: " + fileName);
+
+        Path path = FileSystems.getDefault().getPath(pathName).toAbsolutePath();
+        File file = path.toFile();
+        File[] files = file.listFiles();
+
+        if (files != null) {
+            for(int i = 0; i < files.length; i++) {
+                if(files[i].getName().equals(fileName)) {
+                    System.out.println("Found " + fileName);
+                    found = true;
+                    break;
+                }
+            }
+        }
+        if (!found) {
+            System.out.println("File not found");
         }
     }
 
