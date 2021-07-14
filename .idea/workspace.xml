@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e10f276e-b48a-4ef7-8b30-4af6267d50cd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Virtual_Key/folders/44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Virtual_Key/folders/55tr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Virtual_Key/folders/aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Virtual_Key/folders/gd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Virtual_Key/folders/kk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/folders/44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/folders/55tr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/folders/aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/folders/gd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/folders/kk" beforeDir="false" />
-    </list>
+    <list default="true" id="e10f276e-b48a-4ef7-8b30-4af6267d50cd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="-683">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#662#670#0" expanded="true" />
@@ -77,6 +65,11 @@
             <path>
               <item name="Virtual_Key" type="b2602c69:ProjectViewProjectNode" />
               <item name="Virtual_Key" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Virtual_Key" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Virtual_Key" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Virtual_Key" type="b2602c69:ProjectViewProjectNode" />
@@ -200,8 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="-683">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#662#670#0" expanded="true" />
