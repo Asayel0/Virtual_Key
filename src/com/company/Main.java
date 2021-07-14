@@ -9,6 +9,8 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 
 public class Main {
     static String pathName ="src/folders/";
@@ -69,7 +71,7 @@ public class Main {
 
                 break;
             case 3: //close app
-
+                exit(0);
                 break;
             default:
                 System.out.println("Invalid Option");
